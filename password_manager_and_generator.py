@@ -115,7 +115,7 @@ while True:
      passgen = "".join(random.sample(d.nolower(),length))
      print(f"Your password: {passgen}")
      break
- elif choice > 7 or choice <1 or length > 10 or length<10:
+ elif choice > 7 or choice <1 or length > 10 or length<1:
     print("Please enter a number as stated above \n Closing the program...")
     sys.exit()
 
